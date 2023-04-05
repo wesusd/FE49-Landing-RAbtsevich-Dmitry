@@ -1,0 +1,68 @@
+.price {
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}
+.price-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.price-card {
+    margin: 0 15px;  
+}
+.price-card_name {
+    width: 340px;
+    padding: 12px 0;
+    background-color: #333333;  
+    margin-bottom: 4px;
+}
+.price-card_name p {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price-card_cost {
+    width: 340px;
+    padding: 25px 0;
+    background-color: #333333; 
+    margin-bottom: 4px;
+}
+.price-card_cost p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price-card_free {
+    width: 340px;
+    padding: 14px 0;
+    background-color: #333333;  
+    margin-bottom: 4px;
+}
+.price-card_free p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.price-card_space {
+    width: 340px;
+    background-color: #fff;
+    padding: 14px 0;
+    margin-bottom: 2px;
+}
+.price-card_space p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #86878B;
+}

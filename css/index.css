@@ -1,5 +1,6 @@
 @import url('./cdn.css');
 @import url('./awesome.css');
+@import url('./price.css');
 
 * {
   margin: 0;
@@ -25,4 +26,17 @@ html {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 34px;
+}
+.red-line {
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: auto;
+    margin-bottom: 34px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 68px;
+    text-align: center;
 }

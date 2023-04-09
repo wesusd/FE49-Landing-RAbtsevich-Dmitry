@@ -23,7 +23,18 @@
     text-align: center;
     color: #86878B;
     margin-bottom: 22px;
+    position: relative;
  }
+ .customers_card-description::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 35px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 15px solid #E2E2E2;
+ }
+
 .customers_card-wrap {
     display: flex;
     justify-content: space-between;
@@ -60,5 +71,6 @@
     display: block;
     font-weight: 400;
     font-size: 14px;
+    line-height: 19px;
     color: #86878B;
 }

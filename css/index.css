@@ -43,6 +43,7 @@ html {
 .description {
     font-size: 14px;
     font-weight: 400;
+    max-width: 670px;
     margin-bottom: 68px;
     text-align: center;
 }

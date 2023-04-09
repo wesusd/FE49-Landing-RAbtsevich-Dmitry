@@ -27,12 +27,14 @@ html {
     text-transform: uppercase;
     margin-bottom: 34px;
 }
-.red-line {
+.title::after {
+    content: "";
     width: 64px;
     height: 2px;
     background-color: #E72424;
+    display: block;
     margin: auto;
-    margin-bottom: 34px;
+    margin-top: 34;
 }
 .description {
     font-size: 14px;

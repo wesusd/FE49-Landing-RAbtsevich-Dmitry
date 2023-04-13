@@ -49,37 +49,37 @@
     transition: 2s;
 
 }
-.fa-facebook-f:hover {
+.fa-facebook-f_social:hover {
     transform: scale(1.5);
     color: blue;    
 }
 
-.fa-twitter:hover {
+.fa-twitter_social:hover {
     transform: scale(1.5);
     color: rgb(73, 153, 228);    
 }
 
-.fa-google:hover {
+.fa-google_social:hover {
     transform: scale(1.5);
     color: rgb(241, 115, 98);    
 }
 
-.fa-bell:hover {
+.fa-bell_social:hover {
     transform: scale(1.5);
     color: rgb(120, 231, 145);    
 }
 
-.fa-star:hover {
+.fa-star_social:hover {
     transform: scale(1.5);
     color: rgb(190, 70, 238);    
 }
 
-.fa-socks:hover {
+.fa-socks_social:hover {
     transform: scale(1.5);
     color: rgb(95, 95, 233);    
 }
 
-.fa-frog:hover {
+.fa-frog_social:hover {
     transform: scale(1.5);
     color: rgb(118, 221, 235);    
 }

@@ -1,0 +1,80 @@
+.social {
+    background: #F8EFEF;
+    padding: 20px 0;
+}
+.social-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.social_text {
+    margin: 0 15px;
+}
+.media {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.description_social {
+    max-width: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+}
+.social_icon {
+    margin: 0 15px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 44px;
+    color: #86878B;
+    padding-top: 15px;
+     transition: 3s;  /*спросить почему не работает */
+}
+.fa-facebook-f:hover {
+    transform: scale(1.5);
+    color: blue;    
+}
+
+.fa-twitter:hover {
+    transform: scale(1.5);
+    color: rgb(73, 153, 228);    
+}
+
+.fa-google:hover {
+    transform: scale(1.5);
+    color: rgb(241, 115, 98);    
+}
+
+.fa-bell:hover {
+    transform: scale(1.5);
+    color: rgb(120, 231, 145);    
+}
+
+.fa-star:hover {
+    transform: scale(1.5);
+    color: rgb(190, 70, 238);    
+}
+
+.fa-socks:hover {
+    transform: scale(1.5);
+    color: rgb(95, 95, 233);    
+}
+
+.fa-frog:hover {
+    transform: scale(1.5);
+    color: rgb(118, 221, 235);    
+}

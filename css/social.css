@@ -42,7 +42,12 @@
     font-size: 44px;
     color: #c2c3c9;
     padding-top: 15px;
-     transition: 3s;  /*спросить почему не работает */
+    }
+    
+.social_icon i {
+    cursor: pointer;
+    transition: 3s;
+
 }
 .fa-facebook-f:hover {
     transform: scale(1.5);

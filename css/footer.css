@@ -10,6 +10,11 @@
     letter-spacing: 15px;
     color:rgb(247, 237, 237);
 }
+
+.social_icon i {
+    cursor: pointer;
+    transition: 2s;
+}
 .footer_description {
     font-family: 'Open Sans';
     font-style: normal;

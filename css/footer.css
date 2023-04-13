@@ -3,7 +3,19 @@
     color: aliceblue;
     padding: 20px 0;
 }
-.footter_icon {
+.footer_icon {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 15px;
+    color:rgb(247, 237, 237);
 }
-.footter_description {
+.footer_description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }

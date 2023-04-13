@@ -1,0 +1,47 @@
+.header {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0 -15px;
+}
+
+.axit {
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 15px;
+}
+.ax {
+    color: #fff;
+}
+.it {
+    color: #EC7979;
+}
+.navigation {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 15px;
+   }
+.feautures, .about, .pricing, .reviews, .contact {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+}

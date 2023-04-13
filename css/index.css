@@ -1,4 +1,5 @@
 @import url('./cdn.css');
+@import url('./header.css');
 @import url('./awesome.css');
 @import url('./price.css');
 @import url('./customers.css');
@@ -16,7 +17,7 @@ html {
 }
 .container {
     max-width: 1170px;
-    padding: 0 15 px;
+    padding: 0 15px;
     margin: auto;
     position: relative;
     z-index: 3;
@@ -44,6 +45,7 @@ html {
     font-size: 14px;
     font-weight: 400;
     max-width: 670px;
+    margin: auto;
     margin-bottom: 68px;
     text-align: center;
 }

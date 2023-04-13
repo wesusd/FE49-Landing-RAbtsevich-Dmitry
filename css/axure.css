@@ -39,6 +39,7 @@
     font-size: 14px;
     font-weight: 400;
     max-width: 670px;
+    margin: auto;
     margin-bottom: 68px;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
@@ -49,8 +50,13 @@
     /* box-sizing: border-box; */
     border: 1px solid #FFFFFF;
     text-align: center;
-    cursor: default;
+    cursor: pointer;
+    transition: 1s;
 }
+.download:hover {
+ transform: scale(1.2);
+ }
+
 .download a {
     text-transform: capitalize;
     font-family: 'Open Sans';

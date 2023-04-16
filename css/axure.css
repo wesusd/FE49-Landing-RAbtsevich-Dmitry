@@ -58,6 +58,7 @@
  }
 
 .download_axure a {
+    display: block;
     text-transform: capitalize;
     font-family: 'Open Sans';
     font-style: normal;

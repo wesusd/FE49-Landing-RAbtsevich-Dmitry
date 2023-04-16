@@ -44,7 +44,7 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
 }
-.download {
+.download_axure {
     width: 150px;
     margin: auto;
     /* box-sizing: border-box; */
@@ -53,11 +53,11 @@
     cursor: pointer;
     transition: 1s;
 }
-.download:hover {
+.download_axure:hover {
  transform: scale(1.2);
  }
 
-.download a {
+.download_axure a {
     text-transform: capitalize;
     font-family: 'Open Sans';
     font-style: normal;

@@ -5,6 +5,7 @@
 @import url('./price.css');
 @import url('./customers.css');
 @import url('./axure.css');
+@import url('./contact.css');
 @import url('./footer.css');
 
 * {
@@ -51,3 +52,4 @@ html {
     margin-bottom: 68px;
     text-align: center;
 }
+

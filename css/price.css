@@ -10,8 +10,7 @@
 }
 .price-card {
     margin: 0 15px; 
-    transition: 0.5s; 
-}
+    }
 
 .price-card_name {
     width: 340px;
@@ -23,6 +22,7 @@
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.5s; 
 }
 
 .price-card_name:hover {
@@ -41,6 +41,7 @@
     font-size: 35px;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.5s; 
 }
 
 .price-card_cost:hover {
@@ -59,6 +60,7 @@
     font-size: 14px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s; 
 }
 
 .price-card_free:hover {
@@ -76,6 +78,7 @@
     font-size: 14px;
     text-align: center;
     color: #86878B;
+    transition: 0.5s; 
 }
 .price-card_space:last-child {
     margin-bottom: 0;

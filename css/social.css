@@ -7,6 +7,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 -15px;
+    align-items: center;
 
 }
 .social_text {
@@ -33,20 +34,18 @@
     align-items: center;
     color: #86878B;
 }
-.social_icon {
+.navigation_social_list {
     margin: 0 15px;
     width: 700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 44px;
-    color: #c2c3c9;
-    padding-top: 15px;
-    }
+   }
     
-.social_icon i {
-    cursor: pointer;
+.navigation_social_list_item i {
     transition: 2s;
+    color: #c2c3c9;
 
 }
 .fa-facebook-f_social:hover {
@@ -64,22 +63,22 @@
     color: rgb(241, 115, 98);    
 }
 
-.fa-bell_social:hover {
+.fa-at_social:hover {
     transform: scale(1.5);
     color: rgb(120, 231, 145);    
 }
 
-.fa-star_social:hover {
+.fa-instagram_social:hover {
     transform: scale(1.5);
     color: rgb(190, 70, 238);    
 }
 
-.fa-socks_social:hover {
+.fa-stumbleupon_social:hover {
     transform: scale(1.5);
     color: rgb(95, 95, 233);    
 }
 
-.fa-frog_social:hover {
+.fa-telegram_social:hover {
     transform: scale(1.5);
     color: rgb(118, 221, 235);    
 }

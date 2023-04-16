@@ -28,7 +28,7 @@
  .customers_card-description::after {
     content: "";
     position: absolute;
-    bottom: -15px;
+    top: 100%;
     left: 35px;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
@@ -37,13 +37,13 @@
 
 .customers_card-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
    
 }
 .customers_card-img {
     width: 70px;
     height: 70px;
-    margin: 0 30px 20px 40px;
     border-radius: 50%;
     overflow: hidden;
  }
@@ -57,8 +57,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     text-align: right;
-    margin: auto;
-}
+  }
 .customers_card-name {
     display: block; 
     font-weight: 700;

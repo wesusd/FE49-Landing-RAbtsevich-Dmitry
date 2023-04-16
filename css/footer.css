@@ -1,20 +1,18 @@
 .footer {
     background-color: black;
-    color: aliceblue;
+    color: rgba(255, 255, 255, 0.5);
     padding: 20px 0;
-}
-.footer_icon {
+    }
+.footer_list {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
     margin-bottom: 10px;
     font-size: 16px;
-    text-align: center;
-    letter-spacing: 15px;
-    color:rgb(247, 237, 237);
-}
+    }
 
-.social_icon i {
-    cursor: pointer;
-    transition: 2s;
-}
 .footer_description {
     font-family: 'Open Sans';
     font-style: normal;
@@ -22,5 +20,5 @@
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+
 }

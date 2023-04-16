@@ -1,18 +1,17 @@
 .header {
     background-color: black;
-    color: aliceblue;
+    color: #fff;
     padding: 20px 0;
 }
 .header-wrap {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between; 
     margin: 0 -15px;
+    align-items: center;
 }
 
 .axit {
     display: flex;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -29,12 +28,16 @@
 }
 .navigation {
     width: 500px;
+    
+}
+.navigation_list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 15px;
+        
    }
-.feautures, .about, .pricing, .reviews, .contact {
+.navigation_list_item {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -42,6 +45,13 @@
     display: flex;
     text-align: center;
     text-transform: capitalize;
-    color: rgba(255, 255, 255, 0.7);
-    padding: 10px 0;
+  }
+
+.navigation_list_item a {
+    color: #fff;
 }
+
+.navigation_list_item a:hover {
+    color: rgb(163, 163, 236);
+    text-decoration: underline;
+  }

@@ -48,10 +48,11 @@
   }
 
 .navigation_list_item a {
+    border: 2px solid transparent;
     color: #fff;
 }
 
 .navigation_list_item a:hover {
     color: rgb(163, 163, 236);
-    text-decoration: underline;
+    border-bottom: 2px solid rgb(163, 163, 236);;
   }

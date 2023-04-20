@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./social.css');
+@import url('./tabs.css');
 @import url('./awesome.css');
 @import url('./price.css');
 @import url('./customers.css');
@@ -15,6 +16,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  outline: 0;
 }
 html {
     font-family: 'Open Sans', sans-serif;

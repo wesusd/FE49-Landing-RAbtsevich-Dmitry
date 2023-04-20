@@ -69,7 +69,7 @@
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
 }
-.main_button {
+.main_download {
     width: 150px;
     border: 1px solid #FFFFFF;
     text-align: center;
@@ -78,11 +78,11 @@
     margin-bottom: 40px;
 }
 
-.main_button:hover {
+.main_download:hover {
     transform: scale(1.2);
     }
    
-.main_button a {
+.main_download a {
     display: block;
     text-transform: capitalize;
     font-family: 'Open Sans';
@@ -91,29 +91,25 @@
     font-size: 15px;
     line-height: 40px;
     color: #FFFFFF;
-     
-}
-.main_right {
-    
-    
 }
 
-.main_form {
-}
 .main_form_wrap {
-    background-color: #FFFFFF;
+     background-color: #FFFFFF;
     width: 370px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 .title_main_form {
+    width: 370px;
+    text-align: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #333333;
+    padding: 15px 0; 
+    padding-bottom: 40px;
+
 }
 .main_form_span {
     font-family: 'Open Sans';
@@ -121,16 +117,53 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #EC7979;
 }
-.main_form_free {
+.main_form_free{
+   
+}
+
+.main_form_free_item {
+    padding: 0 50px;
+   
+    
 }
 .main_form_free_label {
+    width: 270px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
 }
+
 .main_form_free_input {
+    outline: none;
+    border: none;
+    width: 270px;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-size: 15px;
 }
 .main_form_button {
+    width: 370px;
+     background: #EC7979;
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 62px;
+     align-items: center;
+     text-align: center;
+     color: #FFFFFF;
+     border: 1px solid transparent;
+     cursor: pointer;
+     margin-top: 30px;
+
+}
+
+input, label {
+    display: block;
 }
